@@ -4,9 +4,9 @@
 In this app you can store your to-do tasks. Using buttons you can add a new task, mark it as done or remove a task.
 
 ## Demo
-<a href="https://matikillerpl.github.io/" rel="nofollow">Strona</a>
+<a href="https://matikillerpl.github.io/list-to-do/" rel="nofollow">Strona</a>
 
-<a href="https://matikillerpl.github.io/" rel="nofollow">https://matikillerpl.github.io/</a>
+<a href="https://matikillerpl.github.io/list-to-do/" rel="nofollow">https://matikillerpl.github.io/list-to-do/</a>
 ## Technology
 - BEM convention
 - ES6+ features
