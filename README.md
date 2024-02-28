@@ -52,4 +52,4 @@ Here is my personal project of *To-Do List*, that will easly help you to keep in
 - and **the red one**, that is responsible for permanently removing your tasks from the tasks list
 
 
-**Below I posted full gif guide of using my *To-Do List*:**
+
