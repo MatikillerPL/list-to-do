@@ -8,7 +8,7 @@
     - [Languages](#Languages)
     - [Conventions](#Conventions)
 - [How To Use It?](#How-To-Use-It?)
-    - [Full Gif Guide](#full-gif-guide)
+  
 
 
 ### Description: 
