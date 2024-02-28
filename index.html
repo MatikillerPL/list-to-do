@@ -4,41 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/container.css">
+    <title>To-Do List</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/tasksList.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="icon"
+        href="https://i.postimg.cc/DzHFWXD3/to-do-list.png">
     <script defer src="js/script.js"></script>
-    <title>Lista zadań</title>
+    <meta property="og:title" content="Lista zadań ✔" />
+    <meta property="og:image"
+        content="https://t3.ftcdn.net/jpg/04/58/05/78/360_F_458057874_tQNcZPZfN5JEn8qJExwOc2g25fMaAsxZ.jpg" />
+    <meta property="og:description" content="Twórz własną listę zadań" />
+    <meta property="og:url" content="https://matikillerpl.github.io/to-do-list/" />
 </head>
 
 <body class="body">
-
-    <header class="header">
-        Lista zadań
-    </header>
-
-    <div class="container">
-        <p class="container__header">
-            Dodaj nowe zadanie
-        </p>
-        <form class="container__form js-form">
-            <input class="container__form-input js-newTask" placeholder="Co jest do zrobienia?">
-            <button class="container__form-button">Dodaj zadanie</button>
-        </form>
+    <div class="grid">
+        <h1 class="mainHeader">Lista zadań</h1>
+        <div class="grid__formContainer">
+            <form class="form js-form">
+                <h2 class="form__header">Dodaj nowe zadanie</h2>
+                <div class="form__grid">
+                    <input minlength="1" maxlength="350" class="form__input js-addNewTask__input" name="task"
+                        type="text" placeholder="Co jest do zrobienia?">
+                    <button class="form__button js-saveTask__button">
+                        Dodaj zadanie
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="tasksList">
+            <h2 class="tasksList__header">Lista zadań</h2>
+            <div class="tasksList__gridStats">
+                <div class="tasksList__stats js-statsAllTasks"></div>
+                <div class="tasksList__stats js-statsDoneTasks"></div>
+            </div>
+            <ul class="tasksList__unOrderedList js-tasksList"></ul>
+        </div>
     </div>
-
-    <div class="container">
-        <p class="container__header">
-            Lista zadań
-        </p>
-        <ul class="container__list js-tasks"> </ul>
-    </div>
-
 </body>
 
 </html>
