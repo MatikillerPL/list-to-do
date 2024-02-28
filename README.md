@@ -18,7 +18,7 @@ Here is my personal project of *To-Do List*, that will easly help you to keep in
 
 [To-Do List](https://matikillerpl.github.io/to-do-list/)
 
-![Screenshot of project] (<img src='http://foto-hosting.pl/img/38/1d/47/381d479749bfa07e45dfc61150f638befa4bc12c.png' border='0' alt='' title=''>)
+![Screenshot of project](<img src='http://foto-hosting.pl/img/38/1d/47/381d479749bfa07e45dfc61150f638befa4bc12c.png' border='0' alt='' title=''>)
 ### Context Of My Project
 *To-Do List* is a part of practise task, that I'm doin' within *YouCode* Programming course. This project is perfect opportunity for me to check my possibilities in *HTML*, *CSS* or *JS* languages.
 
