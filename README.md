@@ -16,7 +16,7 @@ Here is my personal project of *To-Do List*, that will easly help you to keep in
 
 ### Try Demo of *To-Do List*
 
-[To-Do List]([https://matikillerpl.github.io/to-do-list/](https://matikillerpl.github.io/list-to-do/))
+[To-Do List](https://matikillerpl.github.io/list-to-do/)
 
 [Screenshot of project]<img src='http://foto-hosting.pl/img/38/1d/47/381d479749bfa07e45dfc61150f638befa4bc12c.png' border='0' alt='' title=''>
 ### Context Of My Project
